@@ -6,6 +6,16 @@ This smartcontract allows you to rate the NFT collections on the Ternoa blockcha
 
 - - - - - - - - - - - - - - - - - -
 
+## In first, use Farm Contract SC1
+
+## How to collect SC1 tokens to leave reviews?
+
+to leave reviews in WeLikeNFT you must pay in SC1 token, this is a test token on an Alphanet network of the Ternoa blockchain created as part of a Hackathon for the construction of SmartContract under !Ink and Substrate.
+
+This token has no value and never will, it is used as an example of what is possible with a smartcontract.
+
+To farm tokens before leaving a review to try WeLikeNFT, you must load and use the farming contract, here's how to do it:
+
 
 ## Upload and use contract:
 
@@ -20,6 +30,62 @@ wss://alphanet.ternoa.com
 or
 
 in the right top of the window with select : `Ternoa Alphanet`
+
+
+## 1. Add Smartcontract Farm Token SC1 for use it :
+
+2. Add a new contract with `Use On-Chain Contract Address`
+3. Add address: ```5DbxAniKyPyhrG8F45ECr3CWJVDw4sGNSHTLcsNmUr5zjvSH```
+4. Drag and drop the file `ronin_mission6_1_farm.json`
+5. Do Next button for instance and deploy contract with your account.
+
+
+### 2. Approving the Farm Contract and WeLikeNFT Contract for token
+
+Before engaging in farming, claiming rewards, or exchanging rewards, users must approve the Farm Contract to interact with their SC1 tokens. 
+
+This is a crucial security measure ensuring that the contract can only access tokens that are explicitly permitted by the user.
+
+A information about that is comment in SC2 Farm contract in `information` function.
+
+### `To approve the contract:`
+
+1. Visit the approval interface at [https://ronin-fight-club.vercel.app/].
+2. Connect your wallet.
+3. Confirm the approval.
+
+Once approved, users can freely farm tokens, claim rewards, and participate in reward exchanges.
+
+## Features of Farm Token
+
+### Token Farming
+- Users are incentivized to actively participate in the ecosystem by farming SC1 tokens at predefined intervals.
+
+### Reward Claims
+- Accumulation of sufficient SC1 tokens enables users to claim rewards, termed "kisses," adding an element of gamification.
+
+### Reward Exchange
+- Offers a unique feature allowing users to exchange their "kiss" rewards for "hugs," fostering a dynamic and engaging user experience.
+
+
+# When you have collected some SC1 tokens, you can then leave a review on WeLikeNFT
+
+## Upload and use contract:
+
+1. Go to : `https://contracts-ui.substrate.io/add-contract`
+
+Modify the `Custom Endpoint` in setting (⚙) 
+
+```bash
+wss://alphanet.ternoa.com
+```
+
+or
+
+in the right top of the window with select : `Ternoa Alphanet`
+
+
+## Add Smartcontract WeLikeNFT for use it :
 
 2. Add a new contract with `Use On-Chain Contract Address`
 3. Add address: ```5D9vAZDLm4X8SRwY6bRDXyWmWeR4TJ3R4seMA6isJMt6MEtS```
