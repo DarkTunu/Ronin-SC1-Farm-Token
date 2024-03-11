@@ -1,6 +1,4 @@
-# 6.2 Mission: Freestyle SC 
-
-# `WeLikeNFT - Consumer opinions on NFT collections`
+# `WeLikeNFT - Consumer opinions on NFT collections on Ternoa Alphanet with SC1 Token`
 
 ## Overview
 
