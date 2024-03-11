@@ -9,6 +9,29 @@ This smartcontract allows you to rate the NFT collections on the Ternoa blockcha
 - - - - - - - - - - - - - - - - - -
 
 
+## Upload and use contract:
+
+1. Go to : `https://contracts-ui.substrate.io/add-contract`
+
+Modify the `Custom Endpoint` in setting (⚙) 
+
+```bash
+wss://alphanet.ternoa.com
+```
+
+or
+
+in the right top of the window with select : `Ternoa Alphanet`
+
+2. Add a new contract with `Use On-Chain Contract Address`
+3. Add address: ```5D9vAZDLm4X8SRwY6bRDXyWmWeR4TJ3R4seMA6isJMt6MEtS```
+4. Drag and drop the file `we_like_nft.json`
+5. Do Next button for instance and deploy contract with your account.
+
+After that, you can use.
+
+- - - - - - - - - - - - - - - - - -
+
 ## Features
 
 ## REVIEWS
@@ -107,66 +130,3 @@ Users can view lists of ID collections with :
     • ID collection
     • Date end
     • Reward
-
-
-- - - - - - - - - - - - - - - - - -
-
-
-## Necessary to build the contract
-
-Before to build contract, you need to install properly:
-
-`Rust` and `Cargo`
-
-Here's an installation guide:
-
-```bash
-https://doc.rust-lang.org/cargo/getting-started/installation.html
-```
-
-and `ink! CLI`
-CLI tool for helping setting up and managing WebAssembly smart contracts written with ink!
-
-See the installation instructions here:
-
-```bash
-https://github.com/paritytech/cargo-contract?tab=readme-ov-file#installation
-```
-
-If you already install this 3 tools, you can directly build contract
-
-## Contract build procedure:
-
-Open a terminal in the `/Mission 6.2` folder
-
-## Run the following command: 
-
-```bash
-
-cargo contract build
-
-```
-
-The contract is then built.
-
-- - - - - - - - - - - - - - - - - -
-
-## Upload and use contract:
-
-1. Go to : `https://contracts-ui.substrate.io/add-contract`
-
-Modify the `Custom Endpoint` in setting (⚙) 
-
-```bash
-wss://alphanet.ternoa.com
-```
-
-or
-
-in the right top of the window with select : `Ternoa Alphanet`
-
-2. Add a new contract with `Upload New Contract Code`
-3. Drag and drop the file `ronin_mission6_1_farm.contract` created in folder `SC2_PORTAL/target/ink/`
-4. Do Next button for instance and deploy contract with your account.
-
-After that, you can use.
